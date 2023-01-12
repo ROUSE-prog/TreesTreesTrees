@@ -1,7 +1,7 @@
 let angle;
 
 function setup() {
-  createCanvas(2000, 900);
+  createCanvas(windowWidth, windowHeight);
   angle = PI /10;
   strokeWeight(0.4);
 	background(255);
